@@ -1,26 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Ahmed Salem — Cyber Threat Intelligence Blog</title>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Salem — Cyber Threat Intelligence</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #111; color: #eee; }
-    h1 { color: #00d4ff; }
-    h2 { color: #ffcc00; }
-    a { color: #1db954; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #0d0d0d; color: #e0e0e0;
+    }
+    header {
+      background: #111; padding: 20px; text-align: center;
+      border-bottom: 2px solid #00d4ff;
+    }
+    header h1 { margin: 0; color: #00d4ff; }
+    nav a {
+      color: #ffcc00; margin: 0 15px; text-decoration: none; font-weight: bold;
+    }
+    nav a:hover { color: #1db954; }
+    section { padding: 40px; max-width: 900px; margin: auto; }
+    h2 { color: #ffcc00; margin-bottom: 10px; }
+    footer {
+      background: #111; padding: 20px; text-align: center;
+      border-top: 2px solid #00d4ff; margin-top: 40px;
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Blog</h1>
-  <p>This is my personal GitHub Pages site for Cybersecurity & Threat Intelligence.</p>
+  <header>
+    <h1>Ahmed Salem</h1>
+    <p>Cyber Threat Intelligence | APT Research | OSINT</p>
+    <nav>
+      <a href="#apt">APT Profiles</a>
+      <a href="#osint">OSINT Write-ups</a>
+      <a href="#research">Research</a>
+    </nav>
+  </header>
 
-  <h2>Sections</h2>
-  <ul>
-    <li><a href="#">APT Profiles</a></li>
-    <li><a href="#">OSINT Write-ups</a></li>
-    <li><a href="#">Threat Intelligence Research</a></li>
-  </ul>
+  <section id="apt">
+    <h2>🔥 APT Profiles</h2>
+    <p>Structured profiles of Advanced Persistent Threat groups, including victims, TTPs, and IOCs.</p>
+    <ul>
+      <li><a href="#">APT29 — Cozy Bear</a></li>
+      <li><a href="#">UNC3886 — VMware ESXi Attacks</a></li>
+    </ul>
+  </section>
 
-  <p>🚀 Site powered by GitHub Pages.</p>
+  <section id="osint">
+    <h2>🕵️ OSINT Write-ups</h2>
+    <p>Investigations, case studies, and Capture-the-Flag (CTF) challenge solutions.</p>
+    <ul>
+      <li><a href="#">Tracking Phishing Infrastructure</a></li>
+      <li><a href="#">Blockchain Wallet Analysis</a></li>
+    </ul>
+  </section>
+
+  <section id="research">
+    <h2>📊 Research</h2>
+    <p>Threat intelligence methodologies, automation scripts, and detection engineering notes.</p>
+    <ul>
+      <li><a href="#">MITRE ATT&CK Mappings</a></li>
+      <li><a href="#">Threat Hunting Queries</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Ahmed Salem — Built with ❤️ and GitHub Pages</p>
+  </footer>
 </body>
 </html>
